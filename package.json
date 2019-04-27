@@ -1,0 +1,26 @@
+{
+  "name": "nord-bulma",
+  "version": "0.1.0",
+  "description": "Nord theme for Bulma",
+  "main": "sass/nord-bulma.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/nord-bulma.scss src/css/nord-bulma.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sereneblue/nord-bulma.git"
+  },
+  "author": "sereneblue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sereneblue/nord-bulma/issues"
+  },
+  "homepage": "https://github.com/sereneblue/nord-bulma#readme",
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "node-sass": "^4.12.0",
+    "nord": "^0.2.1"
+  }
+}
