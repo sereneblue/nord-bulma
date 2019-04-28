@@ -4,9 +4,9 @@
   "description": "Nord theme for Bulma",
   "main": "sass/nord-bulma.scss",
   "scripts": {
-    "css-build": "node-sass --omit-source-map-url sass/nord-bulma.scss src/css/nord-bulma.css",
-    "css-watch": "npm run css-build -- --watch",
-    "start": "npm run css-watch"
+    "build": "node-sass --omit-source-map-url sass/nord-bulma.scss dist/nord-bulma.css --output-style compressed",
+    "watch": "npm run build -- --watch",
+    "start": "npm run watch"
   },
   "repository": {
     "type": "git",
