@@ -18,5 +18,9 @@ $white-bis: lighten($nord6, 2%);
 
 // invert
 $yellow-invert: rgba($black, 0.7);
+$primary-invert: rgba($black, 0.7);
+
+// misc
+$tabs-border-bottom-width: 2px;
 
 @import "../node_modules/bulma/bulma.sass";
