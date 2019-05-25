@@ -8,7 +8,7 @@ A port of the [nord](https://github.com/arcticicestudio/nord) theme for the [Bul
 
 You can find the minified CSS files in the dist folder.
 
-ALternatively, you can clone this repository and run `npm build` to build nord-bulma.
+Alternatively, you can clone this repository and run `npm build` to build nord-bulma.
 
 ## Thanks
 
