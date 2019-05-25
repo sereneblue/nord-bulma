@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "../node_modules/nord/src/sass/nord.scss";
+@import "colors.scss";
+
+// base colors
+$black: $nord4;
+$black-bis: darken($nord4, 10%);
+$black-ter: darken($nord4, 20%);
+
+$white-ter: $nord2;
+$white-bis: lighten($nord1, 2%);
+$white: $nord0;
+$body-background-color: #242933;
+
+$grey-darker: $nord4;
+$grey-dark: mix($nord4, $nord5);
+$grey: $nord5;
+$grey-light: mix($nord5, $nord6);
+$grey-lighter: $nord6;
+
+// invert
+$yellow-invert: rgba($white, 0.7);
+$primary-invert: rgba($white, 0.7);
+
+// misc
+$tabs-border-bottom-width: 2px;
+
+@import "../node_modules/bulma/bulma.sass";
