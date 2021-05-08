@@ -19,7 +19,7 @@
   "homepage": "https://github.com/sereneblue/nord-bulma#readme",
   "devDependencies": {
     "bulma": "^0.9.0",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "nord": "^0.2.1"
   }
 }
